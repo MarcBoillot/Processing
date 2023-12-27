@@ -16,7 +16,7 @@ int carton_dans_bureau = 0;
 while(cartons > 0){
   println("Le nombre de cartons restant est de" + " " + cartons);
  
-  //float poids = random(8);
+
   
       while (cartons > 0 && nb_cartons_dans_camion < capacite_charge) {
         cartons = cartons - 1;
@@ -32,7 +32,7 @@ while(cartons > 0){
           if(bureaux_charge[carton_dans_bureau] == capacite_des_bureaux[carton_dans_bureau]){
             carton_dans_bureau = carton_dans_bureau +1;
           }
-          
+            //float poids = random(8);
         /*if (poids <= 1) {
           nbcarton_moins_un_kg = nbcarton_moins_un_kg + 1;  
         }else if (poids >1 && poids <= 3){
